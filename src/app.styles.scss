@@ -1,0 +1,11 @@
+@import '../node_modules/normalize.css/normalize.css';
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+::before,
+::after {
+  text-decoration: inherit; /* 1 */
+  vertical-align: inherit; /* 2 */
+}

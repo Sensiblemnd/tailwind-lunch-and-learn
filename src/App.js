@@ -1,8 +1,8 @@
-import { Component } from 'react';
+import { Component } from "react";
 
-import Logo from './assets/altafino.svg';
-import './app.styles.scss';
-import ctl from '@netlify/classnames-template-literals';
+import Logo from "./assets/altafino.svg";
+import "./app.styles.scss";
+import ctl from "@netlify/classnames-template-literals";
 
 class App extends Component {
   render() {
@@ -53,7 +53,7 @@ class App extends Component {
             <img
               className="w-full rounded-lg hover:animate-bounce w"
               src="https://picsum.photos/230/170"
-              style={{ height: '170px', width: '230px' }}
+              style={{ height: "170px", width: "230px" }}
               alt=""
             />
           </div>

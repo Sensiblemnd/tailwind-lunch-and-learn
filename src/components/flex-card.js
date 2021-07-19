@@ -1,11 +1,8 @@
 import React from "react";
 import ctl from "@netlify/classnames-template-literals";
 
-function card() {
+const FlexCard = () => {
   const wrapper = ctl(`
-      
-     
-
       mx-auto 
       sm:w-full
      
@@ -53,17 +50,17 @@ function card() {
             </button>
           </div>
         </div>
-        <div className="w-1/3">
+        <div className="w-1/3 md:flex md:justify-end">
           <img
-            className="w-full rounded-lg hover:animate-bounce aspect-w-1"
+            className="rounded-lg hover:animate-bounce aspect-w-1"
             src="https://picsum.photos/230/170"
-            //style={{ height: "170px", width: "230px" }}
+            style={{ maHeight: "170px", width: "230px" }}
             alt=""
           />
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default card;
+export default FlexCard;

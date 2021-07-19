@@ -4,11 +4,11 @@ import ctl from "@netlify/classnames-template-literals";
 function card() {
   const wrapper = ctl(`
       
-      md:w-max 
-      lg:w-max 
+     
+
       mx-auto 
       sm:w-full
-      w-max
+     
     `);
 
   const card = ctl(`
@@ -23,12 +23,16 @@ function card() {
     <div className={wrapper}>
       <div className={card}>
         <div className="flex flex-col w-2/3 pr-4 bg">
-          <p className="mb-2 text-2xl font-black text-gray-50">
-            NEXT TRIP RIAU
-          </p>
+          <p className="mb-2 text-2xl font-black text-gray-50">Title of card</p>
           <p className="text-lg font-light leading-5 text-gray-300">
             Where the earth is stepped on, there the sky is upheld
           </p>
+          <p className="text-lg font-light leading-5 text-gray-300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vero
+            illum dolore, facere maxime modi totam aliquam a ex cum ea nemo
+            eaque autem eveniet provident, rem cumque possimus consectetur.
+          </p>
+
           <div className="flex items-end h-full text-gray-300 hover:text-gray-50">
             <button className="flex items-center space-x-2 text-sm font-semibold">
               <span>BOOK NOW</span>
@@ -51,9 +55,9 @@ function card() {
         </div>
         <div className="w-1/3">
           <img
-            className="w-full rounded-lg hover:animate-bounce w"
+            className="w-full rounded-lg hover:animate-bounce aspect-w-1"
             src="https://picsum.photos/230/170"
-            style={{ height: "170px", width: "230px" }}
+            //style={{ height: "170px", width: "230px" }}
             alt=""
           />
         </div>

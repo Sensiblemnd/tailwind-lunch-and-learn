@@ -3,7 +3,7 @@ import ctl from "@netlify/classnames-template-literals";
 
 function card() {
   const wrapper = ctl(`
-      h-screen
+      
       md:w-max 
       lg:w-max 
       mx-auto 

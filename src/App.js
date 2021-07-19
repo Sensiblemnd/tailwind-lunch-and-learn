@@ -1,14 +1,18 @@
 import { Component } from "react";
 import "./app.styles.scss";
 import Card from "./components/card";
-import Card2 from "./components/card2";
+import Grids from "./components/grids";
+import Button from "./components/button";
 
 class App extends Component {
   render() {
     return (
       <>
         <Card />
-        <Card2 />
+        <h2>grids</h2>
+        <Grids />
+        <h2>Animations</h2>
+        <Button>Animated Button</Button>
       </>
     );
   }

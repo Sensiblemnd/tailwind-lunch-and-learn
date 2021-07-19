@@ -1,6 +1,6 @@
 module.exports = {
   purge: ["./src/**/*.js"],
-  darkMode: false,
+  darkMode: 'media',
   theme: { extend: {} },
   variants: { extend: {} },
   plugins: [require("@tailwindcss/aspect-ratio")],

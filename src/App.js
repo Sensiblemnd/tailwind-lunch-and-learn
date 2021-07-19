@@ -4,7 +4,7 @@ import FlexCard from "./components/flex-card";
 import Grids from "./components/grids";
 import Button from "./components/button";
 import GridCard from "./components/grid-card";
-
+import DarkMode from "./components/dark-mode";
 class App extends Component {
   render() {
     return (
@@ -15,7 +15,9 @@ class App extends Component {
         <div className="my-4 ">
           <GridCard />
         </div>
-
+        <div className="my-4 ">
+          <DarkMode />
+        </div>
         <h2 className="my-4">grids</h2>
         <Grids />
         <h2 className="my-4">Animations</h2>

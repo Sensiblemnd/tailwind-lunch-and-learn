@@ -3,15 +3,21 @@ import ctl from "@netlify/classnames-template-literals";
 
 function card() {
   const wrapper = ctl(`
-    w-max
-    h-screen 
-    mx-auto`);
+      h-screen
+      md:w-max 
+      lg:w-max 
+      mx-auto 
+      sm:w-full
+      w-max
+    `);
 
   const card = ctl(`
     flex
     p-4
     bg-blue-500
-    rounded-lg`);
+    rounded-lg
+    shadow-lg
+    `);
 
   return (
     <div className={wrapper}>

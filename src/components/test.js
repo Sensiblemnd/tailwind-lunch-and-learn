@@ -1,7 +1,14 @@
 import React from "react";
 
-function test() {
-  return <div className={"test"}>test</div>;
+function TestComponent() {
+  return (
+    <div className={"test"}>
+      Emmet example
+      {/* div{Header $}*6 */}
+      {/* ul>li.item$$$*5 */}
+      {/* div>(header>ul>li*2>a{Link Text $})+footer>p */}
+    </div>
+  );
 }
 
-export default test;
+export default TestComponent;

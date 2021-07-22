@@ -41,7 +41,7 @@ const GridCard = () => {
             </button>
           </div>
         </div>
-        <div className="flex justify-center">
+        <div className="sm:flex sm:justify-center">
           <img
             className="w-full rounded-lg hover:animate-bounce aspect-w-1"
             src="https://picsum.photos/230/170"
